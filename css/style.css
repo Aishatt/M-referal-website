@@ -1,0 +1,147 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#search{
+  margin-left: 30%;
+width: 304px;
+
+border-radius: 227px;
+height: 35px;
+border:1px solid rgba(28, 23, 46, 0.726);
+
+}
+.search{
+      outline: none; 
+      border: none;
+      background: none;
+      margin-left: 10px;
+      width: 80px;
+}
+
+.itemnav{
+    justify-content: space-between;
+}
+.itemnav>ul>li>a{
+    color: black;
+}
+#calculate
+,#signup{
+    outline: none; 
+    border: none;
+    background: #E81865;
+    padding: 8px;
+    border-radius: 4px;
+}
+#section1{
+    background: #2d1936;
+    color: white;
+}
+
+.sectrow{
+    padding-top: 146px;
+}
+input{
+    outline: none; 
+    background-color:#e7e5f3;
+    border: none;
+    border-bottom: 2px solid #c79292;
+    width: 100px;
+}
+.cal{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+position: absolute;
+height: 100px;
+left: 25%;
+width: 50%;
+top: 500px;
+background: #e7e5f3;
+box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.04);
+border-radius: 9px;
+}
+#how{
+    position: relative;
+   margin-left: 1% ;
+  /*  border: 1px solid #E5E5E5;*/
+}
+button:hover{
+    opacity: .9;
+   
+}
+#how>h4{
+    color: #E81865 ; 
+}
+#lv{
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    background: #FF978C;
+    width: 46px;
+height: 22px;
+border-radius: 3.8px;
+}
+.lv{
+    background: #FF978C;
+    padding:2px 10px;
+height: 22px;
+color: white;
+border-radius: 3.3px;
+}
+.reward{
+ justify-content: center;
+ align-items: center;
+}
+.how-p{
+    width: 130px;
+    margin-left: 30%;
+    color: #E81865 ;
+}
+footer{
+     background: #000B39;
+     padding: 5% 10%;
+    
+}
+#footitem>li{
+    text-decoration: none;
+    list-style: none;  
+    padding-top: 20px;
+}
+#footitem>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media screen and (max-width:768px) {
+    #logo{
+    width: 30%;
+    height: 30px;
+    }
+
+.cal{
+   padding-top: 20px;
+    left: 25%;
+    
+top: 60px;
+position: relative;
+height: 300px;
+}
+.calitem{
+    padding: 30px;
+}
+#search{
+    margin-left: 10%;
+ width: 150px;
+ height: 25px;
+  }
+  #si{
+      display: none;
+  }
+ .ham{
+     margin-left: 30%;
+     align-items: center;
+     
+ }
+}
